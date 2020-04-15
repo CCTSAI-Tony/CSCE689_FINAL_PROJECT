@@ -1,10 +1,7 @@
 import numpy as np
-import scipy.optimize
 import matplotlib.pyplot as plt
-from matplotlib.ticker import LogLocator
 import matplotlib.colors as colors
-
-import time
+from matplotlib.ticker import LogLocator
 from rosenbrock.nelder_mead import NelderMead
 from rosenbrock.conjugate_gradient import ConjugateGradient
 from rosenbrock.l_b_b import L_BFGS_B

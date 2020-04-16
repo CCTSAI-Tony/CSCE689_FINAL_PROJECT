@@ -1,5 +1,8 @@
 • Introduction
 
+
+
+
 The purpose of the software is to compare three optimization algorithms and their performaces based on Rosenbrock function,
 
 and the three algorithms are called Nelder-Mead, Conjugate Gradient and L-BFGS-B.
@@ -23,7 +26,15 @@ In this project, I need to find a way to refactoring the code, so it can be main
 
 
 
+
+
+
+
+
 • Modifications and Improvements
+
+
+
 
 Applying the object oriented design, I choose to buld up three classes corresponding to three different optomization
 
@@ -63,7 +74,16 @@ and edit the whole source code followed the PEP8 guidelines.
 
 
 
+
+
+
+
+
+
 • Conclusion
+
+
+
 
 In this project, we learn how to turn a plain source code into a maintainable module, and build a test suite
 

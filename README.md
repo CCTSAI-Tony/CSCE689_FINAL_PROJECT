@@ -99,6 +99,7 @@ Below are the output console data of original and modefied source code.
 orginal:
 
 | Method             | Iterations | Time (ms) |
+
 +--------------------+------------+-----------+
 
 | Nelder-Mead        |         75 |      4.62 |

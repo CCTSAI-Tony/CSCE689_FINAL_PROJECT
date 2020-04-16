@@ -23,11 +23,25 @@ Another big problem is that it does't have its own test suite, which is needed t
 
 • Modifications and Improvements
 
+orginal:
 
+| Nelder-Mead        |         75 |      4.62 |
 
+| Conjugate Gradient |         37 |      4.40 |
 
+| L-BFGS-B           |         29 |      1.56 |
 
+| Total Execution Time (w/o plot):     206.67 |
 
+modified:
+
+| Nelder-Mead        |         75 |      5.02 |
+
+| Conjugate Gradient |         37 |      5.50 |
+
+| L-BFGS-B           |         29 |      1.93 |
+
+| Total Execution Time (w/o plot):     12.84 |
 
 
 

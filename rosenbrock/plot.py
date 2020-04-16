@@ -8,8 +8,11 @@ from rosenbrock.l_b_b import L_BFGS_B
 from rosenbrock.rosenbrock import rosenbrock
 
 
-
-def plot(class1,class2,class3):
+def plot(class1, class2, class3):
+    '''
+    Print out the three different optimization results on the 2D plot.
+    Use the contourf method to color the terrain on the map.
+    '''
     x_min = min(class1.x_min, class2.x_min, class3.x_min)
     x_max = max(class1.x_max, class2.x_max, class3.x_max)
     y_min = min(class1.y_min, class2.y_min, class3.y_min)
@@ -18,7 +21,7 @@ def plot(class1,class2,class3):
     x = np.linspace(x_min-1, x_max+1, num_points)
     y = np.linspace(y_min-1, y_max+1, num_points)
     X, Y = np.meshgrid(x, y)
-    Z = rosenbrock([X,Y])
+    Z = rosenbrock([X, Y])
     normalize = colors.LogNorm(vmin=Z.min(), vmax=Z.max())
     plt.plot(class1.x_iterates, class1.y_iterates, 'ro:', linewidth=3, label="Nelder-Mead")
     plt.plot(class2.x_iterates, class2.y_iterates, 'mo--', linewidth=3, label="Conjugate Gradient")

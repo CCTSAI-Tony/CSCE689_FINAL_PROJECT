@@ -2,7 +2,14 @@ import numpy as np
 import scipy.optimize
 import time
 
+
 class NelderMead():
+    '''
+    NelderMead class accepts 2 arguments, which are function and first guess tuple coordinate.
+    It includes self.x fild which lists out all the intermediate guess data
+    The self.iteration field record the total times of loops.
+    '''
+
     def __init__(self, func, x0):
         self.func = func
         self.x = np.array(x0)
@@ -10,12 +17,13 @@ class NelderMead():
         self.iteration = 0
         self.process()
 
-    def record(self,xk):
+    def record(self, xk):
         self.x = np.vstack((self.x, (xk)))
 
     def optimize(self):
-        self.res = scipy.optimize.minimize(self.func, self.x, method='Nelder-Mead', callback=self.record)
-        
+        self.res = scipy.optimize.minimize(
+            self.func, self.x, method='Nelder-Mead', callback=self.record)
+
     def process(self):
         self.start = time.perf_counter()
         self.optimize()

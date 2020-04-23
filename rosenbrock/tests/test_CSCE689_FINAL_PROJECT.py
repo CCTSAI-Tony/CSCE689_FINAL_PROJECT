@@ -38,36 +38,31 @@ def test_NelderMead():
     '''
     Buld a NelderMead object and test the object behavior by compare the object property
     with correct answer.
-    From nelder_mead_array import array1, confirm if object has the correct np.array
+    From nelder_mead_array.py import array1, confirm if object has the correct np.array
     '''
-    nel_md_iteration = nel_md_test.iteration
-    assert(np.allclose(nel_md_iteration, 75))
-    nel_md_array = nel_md_test.x
-    assert(np.allclose(nel_md_array, array1))
+
+    assert(np.allclose(nel_md_test.iteration, 75))
+    assert(np.allclose(nel_md_test.x, array1))
 
 
 def test_ConjugateGradient():
     '''
     Buld a ConjugateGradient object and test the object behavior by compare the object property
     with correct answer.
-    From conjugate_gradient_array import array2, confirm if object has the correct np.array
+    From conjugate_gradient_array.py import array2, confirm if object has the correct np.array
     '''
-    cg_iteration = cg_test.iteration
-    assert(np.allclose(cg_iteration, 37))
-    cg_array = cg_test.x
-    assert(np.allclose(cg_array, array2))
+    assert(np.allclose(cg_test.iteration, 37))
+    assert(np.allclose(cg_test.x, array2))
 
 
 def test_L_BFGS_B():
     '''
     Buld a L_BFGS_B object and test the object behavior by compare the object property
     with correct answer.
-    From l_b_b_array import array3, confirm if object has the correct np.array
+    From l_b_b_array.py import array3, confirm if object has the correct np.array
     '''
-    lbb_iteration = lbb_test.iteration
-    assert(np.allclose(lbb_iteration, 29))
-    lbb_array = lbb_test.x
-    assert(np.allclose(lbb_array, array3))
+    assert(np.allclose(lbb_test.iteration, 29))
+    assert(np.allclose(lbb_test.x, array3))
 
 
 def test_print_result(capsys):

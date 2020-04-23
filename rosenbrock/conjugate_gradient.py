@@ -9,4 +9,8 @@ class ConjugateGradient(NelderMead):
     '''
 
     def optimize(self):
-        self.res = scipy.optimize.minimize(self.func, self.x, method='CG', callback=self.record)
+        '''
+        Optimization of conjugate_gradient method
+        '''
+        self.res = scipy.optimize.minimize(
+            self.func, self._NelderMead__x, method='CG', callback=self.record)

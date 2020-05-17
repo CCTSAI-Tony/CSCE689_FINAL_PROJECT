@@ -1,11 +1,11 @@
 import scipy.optimize
-from rosenbrock.nelder_mead import NelderMead
+from rosenbrock.method import Method
 
 
-class ConjugateGradient(NelderMead):
+class ConjugateGradient(Method):
     '''
     ConjugateGradient class accepts 2 arguments, which are function and first guess tuple coordinate.
-    It inherits from NelderMead class.
+    It inherits from Method class.
     '''
 
     def optimize(self):
@@ -13,4 +13,4 @@ class ConjugateGradient(NelderMead):
         Optimization of conjugate_gradient method
         '''
         self.res = scipy.optimize.minimize(
-            self.func, self._NelderMead__x, method='CG', callback=self.record)
+            self.func, self._Method__x, method='CG', callback=self.record)

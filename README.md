@@ -4,7 +4,7 @@ To implement this Software, run the following commands.
 
 python -m rosenbrock
 
-To run test suite, run the following commands.
+To run the test suite, run the following commands.
 
 pytest
 

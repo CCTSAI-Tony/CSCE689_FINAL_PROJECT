@@ -1,6 +1,6 @@
 # Implemented by Python3
 
-* To implement this Software, run the following commands in your command line.
+* To implement this Software, clone this repo and run the following commands in this folder on your command line.
 
   * python -m rosenbrock
 

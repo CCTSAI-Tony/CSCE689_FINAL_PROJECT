@@ -26,7 +26,7 @@
 
 ## • Improvement
 
-* Refactor source_code.py into a package project and include its own test suit using PyTest. Be optimized by NumPy/SciPy and overall run time has been improved from 216ms to 13ms (10 times faster).
+* Refactor **source_code.py** into a package project and include its own test suit using PyTest. Be optimized by NumPy/SciPy and overall run time has been improved from 216ms to 13ms (10 times faster).
 
 ## • Original result
 

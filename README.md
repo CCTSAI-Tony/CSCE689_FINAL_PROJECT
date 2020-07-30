@@ -30,8 +30,20 @@ It also outputs a plot that includes different results of the three algorithms w
 
 and terminate at point (1,1) as the minimum location of the Rosenbrock function.
 
+• Graph
+
+![image](https://github.com/CCTSAI-Tony/CSCE689_FINAL_PROJECT/blob/master/rosenbrock/graph.jpg)
+
 • Improvement
 
 Refactor source_code.py into a package project and include its own test suit using PyTest.
 
 Be optimized by NumPy/SciPy and overall run time has been improved from 216ms to 13ms (10 times faster).
+
+• Original result
+
+![image](https://github.com/CCTSAI-Tony/CSCE689_FINAL_PROJECT/blob/master/rosenbrock/source.jpg)
+
+• Rebuilt result
+
+![image](https://github.com/CCTSAI-Tony/CSCE689_FINAL_PROJECT/blob/master/rosenbrock/package.jpg)

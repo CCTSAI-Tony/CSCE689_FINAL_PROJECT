@@ -1,12 +1,12 @@
 # Implemented by Python3
 
-## To implement this Software, run the following commands.
+* To implement this Software, run the following commands in your command line.
 
-### python -m rosenbrock
+  * python -m rosenbrock
 
-## To run the test suite, run the following commands.
+* To run the test suite, run the following commands.
 
-### pytest
+  * pytest
 
 # CSCE 689 SPTP: SFTWR ENG FOR SCI/ENG
 

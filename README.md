@@ -29,3 +29,9 @@ and overall runtime respectively.
 It also outputs a plot that includes different results of the three algorithms which all start form point (-3,-4)
 
 and terminate at point (1,1) as the minimum location of the Rosenbrock function.
+
+• Improvement
+
+Refactor source_code.py into a package project and include its own test suit using PyTest.
+
+Be optimized by NumPy/SciPy and overall run time has been improved from 216ms to 13ms (10 times faster).

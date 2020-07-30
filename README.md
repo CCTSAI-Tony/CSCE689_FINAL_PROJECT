@@ -12,7 +12,7 @@
 
 ## • Introduction
 
-* The purpose of the software is to compare three optimization algorithms and their performances based on Rosenbrock function, and the three algorithms are called **Nelder-Mead**, **Conjugate Gradient** and **L-BFGS-B**.The Rosenbrock function is defined as:
+* The purpose of the software is to compare three optimization algorithms and their performances based on Rosenbrock function, and the three algorithms are called **Nelder-Mead**, **Conjugate Gradient** and **L-BFGS-B**. The Rosenbrock function is defined as:
 
 ## 𝑓𝑅𝑜𝑠𝑒𝑛(𝑥,𝑦)=(100(𝑦−𝑥2) 2+(1−𝑥) 2
 

@@ -4,9 +4,9 @@
 
 ## python -m rosenbrock
 
-## To run the test suite, run the following commands. pytest
+## To run the test suite, run the following commands.
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+## pytest
 
 # CSCE 689 SPTP: SFTWR ENG FOR SCI/ENG
 
